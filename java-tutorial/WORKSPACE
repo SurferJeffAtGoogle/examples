@@ -4,4 +4,5 @@ load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 http_archive(
     name = "googleapis",
     urls = ["https://github.com/googleapis/googleapis/archive/f563b1dffee42be2f61c326c39af4974c1984278.zip"],
+    strip_prefix = "googleapis-f563b1dffee42be2f61c326c39af4974c1984278"
 )
